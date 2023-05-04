@@ -5,6 +5,10 @@ module.exports = {
     "./src/components/**/*.{ts,tsx,mdx}",
     "./src/app/**/*.{ts,tsx,mdx}",
   ],
+  corePlugins: {
+    preflight: false,
+  },
+  important: "#__next",
   theme: {
     extend: {
       backgroundImage: {
