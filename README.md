@@ -1,8 +1,14 @@
-# NextJS ➕ MUI X Starter
+# NextJS ➕ MUI X + TailwindCSS Starter
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 It includes ESLint, Prettier, and TypeScript support out of the box. It includes appropriate [VS Code settings](./.vscode/settings.json) to ensure a consistent development experience.
+
+It includes a pre-commit 🪝 using `husky` and `lint-staged` (see `package.json`).
+
+It includes [Zod](https://github.com/colinhacks/zod) with [React Hook Form](https://react-hook-form.com/) support for form validation.
+
+<!-- TODO: Add Cypress for testing ✅. -->
 
 ## Getting Started
 
