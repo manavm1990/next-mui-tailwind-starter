@@ -13,6 +13,7 @@ It includes [Framer Motion](https://www.framer.com/motion/).
 ## Testing ✅
 
 - Vitest + React Testing Library with Linting
+- Cypress for Additional Integration Testing
 
 ## Getting Started
 
