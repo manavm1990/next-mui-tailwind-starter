@@ -2,6 +2,8 @@
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Code Quality
+
 It includes ESLint, Prettier, and TypeScript support out of the box. It includes appropriate [VS Code settings](./.vscode/settings.json) to ensure a consistent development experience.
 
 ESLint enforces [encapsulation of 🪝s](https://kyleshevlin.com/use-encapsulation). It's only a ⚠️ warning, but it's a good practice to follow.
@@ -10,14 +12,24 @@ It includes a pre-commit 🪝 using `husky` and `lint-staged` (see `package.json
 
 It includes [Zod](https://github.com/colinhacks/zod) with [React Hook Form](https://react-hook-form.com/) support for form validation.
 
+## Animation
+
 It includes [Framer Motion](https://www.framer.com/motion/).
+
+## Data Fetching
+
+[`ky`](https://github.com/sindresorhus/ky) is included to perform the actual fetching.
 
 It includes [SWR](https://swr.vercel.app/) for data fetching/caching.
 
 > With SWR, components will get a stream of data updates constantly and automatically.
 > And the UI will be always fast and reactive.
 
-It includes [Recharts](https://recharts.org/en-US/guide). Use this for...charts 💹 (e.g. Analytics).
+## 💹
+
+It includes [Recharts](https://recharts.org/en-US/guide). Use this for...charts 💹 (e.g. Analyt💹
+
+## Snackbars
 
 It includes [Notistack](https://iamhosseindhv.com/notistack) for snackbars.
 
