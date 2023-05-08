@@ -7,6 +7,8 @@ module.exports = {
     "plugin:react/recommended",
     "next/core-web-vitals",
     "standard-with-typescript",
+    "plugin:testing-library/react",
+    "plugin:jest-dom/recommended",
     "prettier",
   ],
   overrides: [
@@ -20,6 +22,14 @@ module.exports = {
     project: "./tsconfig.json",
     sourceType: "module",
   },
-  plugins: ["react"],
-  rules: {},
+  plugins: ["react", "testing-library", "jest-dom"],
+  rules: {
+    "no-console": [
+      "warn",
+      {
+        allow: ["error", "info", "table", "warn"],
+      },
+    ],
+    "no-unused-vars": ["error", { destructuredArrayIgnorePattern: "^_" }],
+  },
 };
