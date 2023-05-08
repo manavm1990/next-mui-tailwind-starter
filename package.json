@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "cypress": "cypress open",
     "start": "next start",
     "lint": "next lint",
     "prepare": "husky install",
