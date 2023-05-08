@@ -10,6 +10,10 @@ It includes [Zod](https://github.com/colinhacks/zod) with [React Hook Form](http
 
 It includes [Framer Motion](https://www.framer.com/motion/).
 
+## Testing ✅
+
+- Vitest + React Testing Library with Linting
+
 ## Getting Started
 
 First, run the development server: `npm run dev`.
