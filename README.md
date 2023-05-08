@@ -8,7 +8,7 @@ It includes a pre-commit 🪝 using `husky` and `lint-staged` (see `package.json
 
 It includes [Zod](https://github.com/colinhacks/zod) with [React Hook Form](https://react-hook-form.com/) support for form validation.
 
-<!-- TODO: Add Cypress for testing ✅. -->
+It includes [Framer Motion](https://www.framer.com/motion/).
 
 ## Getting Started
 
