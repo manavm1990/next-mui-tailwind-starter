@@ -22,7 +22,7 @@ module.exports = {
     project: "./tsconfig.json",
     sourceType: "module",
   },
-  plugins: ["react", "testing-library", "jest-dom"],
+  plugins: ["react", "use-encapsulation", "testing-library", "jest-dom"],
   rules: {
     "no-console": [
       "warn",
@@ -31,5 +31,6 @@ module.exports = {
       },
     ],
     "no-unused-vars": ["error", { destructuredArrayIgnorePattern: "^_" }],
+    "use-encapsulation/prefer-custom-hooks": ["warn", { allow: ["useMemo"] }],
   },
 };
