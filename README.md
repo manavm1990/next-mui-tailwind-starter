@@ -12,6 +12,10 @@ It includes a pre-commit 🪝 using `husky` and `lint-staged` (see `package.json
 
 It includes [Zod](https://github.com/colinhacks/zod) with [React Hook Form](https://react-hook-form.com/) support for form validation.
 
+## Dev Experience
+
+It can always be debatable, but there is a `.vscode` with settings and recommended extensions. Generally, as you work, once you leave the file it will automatically save 💾, lint (auto-fixes as much as it can) and prettify/format the code. The result is much less manual code formatting/correcting.
+
 ## Animation
 
 It includes [Framer Motion](https://www.framer.com/motion/).
